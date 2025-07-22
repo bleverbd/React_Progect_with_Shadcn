@@ -1,7 +1,7 @@
-import bg from "@/assets/images/Bg.png";
+import herobg from "@/assets/images/herobg.png";
 
 
 export const ImagesProvider = {
-  bg,
+  herobg,
 
 };
