@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <p>sdgszdg</p>
+      <p className=" text-textPrimary bg-bgPrimary">sdgszdg</p>
     </div>
   );
 }
