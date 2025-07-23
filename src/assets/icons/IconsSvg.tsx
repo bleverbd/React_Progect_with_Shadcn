@@ -74,9 +74,56 @@ export const ButtokNowBtnIcon = ({ ...props }) => (
     width="27"
     height="27"
     viewBox="0 0 27 27"
-   
     {...props}
   >
     <path d="M18.6848 16.3926C18.6934 17.0546 19.2371 17.5984 19.8992 17.607C20.5613 17.6156 21.091 17.0858 21.0824 16.4237L20.965 7.38153C20.9564 6.71943 20.4127 6.17573 19.7506 6.16713L10.7085 6.0497C10.0464 6.0411 9.51659 6.57086 9.52519 7.23296C9.53379 7.89506 10.0775 8.43876 10.7396 8.44736L16.8875 8.52721L6.07817 19.3365C5.61608 19.7986 5.62594 20.5577 6.10019 21.032C6.57444 21.5062 7.3335 21.5161 7.79559 21.054L18.6049 10.2446L18.6848 16.3926Z" />
+  </svg>
+);
+export const SearchIcon = ({ ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    {...props}
+  >
+    <path
+      d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M21 21L16 16"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const LocationIcon = ({ ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    { ...props }
+  >
+    <path
+      d="M14 6.66667C14 11.3333 8 15.3333 8 15.3333C8 15.3333 2 11.3333 2 6.66667C2 5.07537 2.63214 3.54925 3.75736 2.42403C4.88258 1.29881 6.4087 0.666672 8 0.666672C9.5913 0.666672 11.1174 1.29881 12.2426 2.42403C13.3679 3.54925 14 5.07537 14 6.66667Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M8 8.66667C9.10457 8.66667 10 7.77124 10 6.66667C10 5.5621 9.10457 4.66667 8 4.66667C6.89543 4.66667 6 5.5621 6 6.66667C6 7.77124 6.89543 8.66667 8 8.66667Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
   </svg>
 );

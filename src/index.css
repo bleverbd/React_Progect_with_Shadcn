@@ -126,3 +126,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide clear (x) button in Chrome */
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
