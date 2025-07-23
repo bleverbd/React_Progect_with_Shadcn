@@ -1,14 +1,9 @@
-import { Logo } from "@/assets/icons/IconsSvg";
-import BookNowButton from "@/components/common/BookNowButton";
-
+import Hero from "@/components/home/Hero";
 
 const Home = () => {
   return (
     <div>
-      <p>This is Home Page</p>
-      <Logo />
-      
-      <BookNowButton/>
+      <Hero />
     </div>
   );
 };

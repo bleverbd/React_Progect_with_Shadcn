@@ -1,4 +1,4 @@
-import MainLayout from "@/layouts/shared/MainLayout";
+import MainLayout from "@/layouts/MainLayout";
 import ErrorPage from "@/Pages/Error/ErrorPage";
 import NotFoundError from "@/Pages/Error/NotFoundError";
 import Home from "@/Pages/Home";
@@ -15,10 +15,18 @@ export const routes = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-    //   {
-    //     path: "/chat",
-    //     element: <Chats />,
-    //   },
+      {
+        path: "/post-job",
+        element: <ErrorPage/>,
+      },
+      {
+        path: "/log-in",
+        element: <ErrorPage/>,
+      },
+      {
+        path: "/register-plumber",
+        element: <ErrorPage/>,
+      },
       
     ],
   },
